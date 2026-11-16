@@ -1,10 +1,10 @@
-# 🕷️ AI Web Scraper
+#  AI Web Scraper
 
 An intelligent web scraping application built with **Streamlit**, **Scrape.do**, and **Google Gemini (`google-genai`)**.
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```text
 ai-web-scraper/
@@ -19,7 +19,7 @@ ai-web-scraper/
 
 ---
 
-## ⚙️ Prerequisites & Setup
+## Prerequisites & Setup
 
 ### 1. Clone or Open the Repository
 ```bash
@@ -60,7 +60,7 @@ SCRAPE_DO_API_KEY=your_scrape_do_token_here
 
 ---
 
-## 🚀 Running the App
+##  Running the App
 
 Start the Streamlit application:
 ```bash
@@ -71,7 +71,7 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 🧩 How It Works
+##  How It Works
 
 1. **Scraping (`scrape.py`)**:
    - Sends requests through **Scrape.do** proxy API (with anti-bot bypassing and optional JavaScript rendering) or falls back to direct browser-simulated requests.
